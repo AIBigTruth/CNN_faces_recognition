@@ -1,0 +1,2 @@
+# CNN_faces_recognition
+基于卷积神经网络的人脸在线识别系统
