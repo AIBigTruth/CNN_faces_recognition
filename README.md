@@ -5,4 +5,6 @@
 
 关键词: 神经网络； 图像处理； 人脸检测；人脸识别；TensorFlow；模型训练 
 
+本系统使用人脸数据集下载:http://vis-www.cs.umass.edu/lfw/lfw.tgz
+
 详情博客：https://www.cnblogs.com/fpzs/p/10550577.html
