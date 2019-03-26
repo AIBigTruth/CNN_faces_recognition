@@ -7,4 +7,4 @@
 
 本系统使用人脸数据集下载:http://vis-www.cs.umass.edu/lfw/lfw.tgz
 
-详情博客：https://www.cnblogs.com/fpzs/p/10550577.html
+详情博客：https://www.cnblogs.com/fpzs/p/10602995.html
