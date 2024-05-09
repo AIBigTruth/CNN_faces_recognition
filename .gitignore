@@ -1,17 +1,4 @@
-*.swo
-*.swp
-*.bak
-*.egg
-*.eggs
-*.pyc
-*.pyd
-*.pyo
 
-venv/
-
-__pycache__/
-
-.pytest_cache/
 
 tmp/
 
