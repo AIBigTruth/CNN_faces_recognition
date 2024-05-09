@@ -10,7 +10,7 @@ import dlib
 import os
 import random
 
-faces_my_path = './faces_my'
+faces_my_path = './faces_my2'
 size = 64
 if not os.path.exists(faces_my_path):
     os.makedirs(faces_my_path)
@@ -32,12 +32,12 @@ def img_change(img, light=1, bias=0):
 
 """特征提取器:dlib自带的frontal_face_detector"""
 detector = dlib.get_frontal_face_detector()
-cap = cv2.VideoCapture(0)
 
+cap = cv2.VideoCapture(0)    # 0-默认笔记本电脑自带的摄像头，1-外接摄像头
 num = 1
 while True:
-    if (num <= 10000):
-        print('Being processed picture %s' % num)
+    if (num <= 1000):
+        print('time %s' % num)
         success, img = cap.read()
         gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         """使用特征提取器进行人脸检测"""

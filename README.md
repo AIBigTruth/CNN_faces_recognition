@@ -1,12 +1,9 @@
-# CNN_Faces_Recognition
-   基于卷积神经网络的人脸在线识别系统，本系统研究基于神经网络模型的人脸检测与识别技术，
-系统将由以下几个部分构成：制作人脸数据集、CNN神经网络模型训练、人脸检测、人脸识别。
-经过实验，确定该系统可对本人的人脸进行快速并准确的检测与识别。
-
-关键词: 神经网络； 图像处理； 人脸检测；人脸识别；TensorFlow；模型训练 
+# CNN_Faces_Recognition 
 
 本系统使用人脸数据集下载:http://vis-www.cs.umass.edu/lfw/lfw.tgz
 
-详情博客：https://www.cnblogs.com/fpzs/p/10602995.html
-
-详情见微信公众号：AI大道理
+步骤1、下载上方数据集作为其他人脸，放到img_source
+步骤2、运行faces_my.py 、faces_other.py进行数据准备
+步骤3、运行faces_train.py进行模型训练
+步骤4、运行face_recognition.py进行人脸二分类识别
+步骤5、运行faces_train_multi.py进行人脸多分类识别的模型训练，运行face_recognition.py进行人脸识别

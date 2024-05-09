@@ -13,7 +13,7 @@ import os
 import dlib
 
 source_path = './img_source'
-faces_other_path = './faces_other'
+faces_other_path = './faces_other2'
 size = 64
 if not os.path.exists(faces_other_path):
     os.makedirs(faces_other_path)
@@ -26,7 +26,7 @@ num = 1
 for (path, dirnames, filenames) in os.walk(source_path):
     for filename in filenames:
         if filename.endswith('.jpg'):
-            print('Being processed picture %s' % num)
+            print('time %s' % num)
             img_path = path+'/'+filename
             img = cv2.imread(img_path)
             gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
